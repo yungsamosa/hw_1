@@ -1,6 +1,6 @@
 import sys
 import random
-
+#this is a comment to mess with git lmao
 def random_lines(filename):
     output = ""
     with open(filename, encoding="utf-8") as f:
