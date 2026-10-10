@@ -1,0 +1,19 @@
+import sys
+import random
+<<<<<<< HEAD
+#testing testing 123
+
+
+=======
+#this is a comment to mess with git lmao
+>>>>>>> hw_1b
+def random_lines(filename):
+    output = ""
+    with open(filename, encoding="utf-8") as f:
+        for x in f:
+            if random.random() < 0.01:
+                output += x
+    return output
+
+filename = sys.argv[1]
+print(random_lines(filename))
